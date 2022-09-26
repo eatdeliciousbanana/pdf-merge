@@ -1,0 +1,41 @@
+#back {
+    background-color: rgb(235, 235, 235);
+    max-width: 576px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hover-gray {
+    background-color: #f8f9fa;
+}
+
+.hover-gray:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.hover-red {
+    background-color: #f8f9fa;
+    color: red;
+}
+
+.hover-red:hover {
+    background-color: rgb(255, 220, 220);
+}
+
+#merging {
+    display: none;
+}
+
+.filename {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width:576px) {
+    .filename {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
