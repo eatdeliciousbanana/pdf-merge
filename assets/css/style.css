@@ -30,7 +30,13 @@
 .filename {
     font-size: 20px;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: scroll hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.filename::-webkit-scrollbar {
+    display: none;
 }
 
 @media screen and (max-width:576px) {
